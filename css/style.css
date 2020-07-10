@@ -17,6 +17,7 @@
   background-color: #FDC0CB;
   text-align: center;
   position: relative;
+  padding: 5px;
 }
 
 [class*='col-'] > p{
@@ -24,4 +25,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+[class*='col-'] .nested{
+  background-color: #F07F80;
+  border: 1px solid #fff;
 }
